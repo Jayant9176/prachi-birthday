@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#10040c">
+  <meta name="description" content="A little birthday surprise for Prachi, from Jayant.">
+  <title>For Prachi ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+  <div id="sparkles"></div>
+
+  <main>
+    <!-- Opening -->
+    <section class="screen active" id="opening">
+      <div class="moon"></div>
+      <div class="opening-content">
+        <p class="eyebrow">A little surprise • 17.08.2026</p>
+        <h1>For <span>Prachi</span></h1>
+        <p class="sub">Someone who makes an ordinary day feel a little more beautiful.</p>
+        <button class="primary-btn" id="openBtn">Open your surprise <span>♥</span></button>
+        <p class="tiny">Made with love by Jayant</p>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="screen" id="intro">
+      <div class="story">
+        <p class="line fade-line">There are billions of people in this world...</p>
+        <p class="line fade-line delay1">and somehow,</p>
+        <p class="line big fade-line delay2">my heart chose you. ❤️</p>
+        <button class="ghost-btn next-btn">continue ✦</button>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="screen" id="gallery">
+      <div class="section-head">
+        <p class="eyebrow">A few little moments</p>
+        <h2>Just <span>you</span> being you.</h2>
+      </div>
+
+      <div class="photo-stage">
+        <article class="memory active">
+          <img src="assets/prachi-01.jpg" alt="Prachi">
+          <div class="caption">That smile... ❤️</div>
+        </article>
+        <article class="memory">
+          <img src="assets/prachi-02.jpg" alt="Prachi">
+          <div class="caption">Beautiful, without even trying.</div>
+        </article>
+        <article class="memory">
+          <img src="assets/prachi-03.jpg" alt="Prachi">
+          <div class="caption">My favourite kind of distraction. ✨</div>
+        </article>
+        <article class="memory">
+          <img src="assets/prachi-04.jpg" alt="Prachi">
+          <div class="caption">A little sunshine in human form.</div>
+        </article>
+        <article class="memory">
+          <img src="assets/prachi-05.jpg" alt="Prachi">
+          <div class="caption">Somehow, you make everything softer.</div>
+        </article>
+        <article class="memory">
+          <img src="assets/prachi-06.jpg" alt="Prachi">
+          <div class="caption">And somehow... my favourite person. ❤️</div>
+        </article>
+      </div>
+
+      <div class="dots" id="dots"></div>
+      <button class="ghost-btn" id="galleryNext">next memory →</button>
+    </section>
+
+    <!-- Letter -->
+    <section class="screen" id="letter">
+      <div class="letter-wrap">
+        <p class="eyebrow">From Jayant, with all my heart</p>
+        <div class="paper">
+          <div class="paper-heart">♥</div>
+          <h2>Dear Prachi,</h2>
+          <p id="typedLetter"></p>
+          <p class="signature">— Jayant</p>
+        </div>
+        <button class="ghost-btn next-btn">one last thing ✦</button>
+      </div>
+    </section>
+
+    <!-- Final -->
+    <section class="screen" id="final">
+      <div class="final-content">
+        <div class="final-heart">♥</div>
+        <p class="eyebrow">17 • 08 • 2026</p>
+        <h1>Happy Birthday,<br><span>Prachi</span> ❤️</h1>
+        <p class="final-message">If I could give you one thing today, I'd give you the ability to see yourself through my eyes.</p>
+        <p class="small-final">Because maybe then you'd understand just how special you are to me.</p>
+        <div class="forever">With love, always — Jayant</div>
+      </div>
+    </section>
+  </main>
+
+  <button class="music" id="musicBtn" aria-label="Toggle ambient music">♪</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
