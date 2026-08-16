@@ -82,6 +82,24 @@ h1 span,h2 span{color:var(--pink);font-family:"Great Vibes",cursive;font-weight:
 .dot.active{width:18px;border-radius:5px;background:#ff91ad}
 #galleryNext{position:absolute;bottom:3%;margin:0}
 
+.profile-avatar {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, #ff789d, #c53c70);
+  box-shadow: 0 0 25px rgba(255, 120, 157, 0.45);
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
 .letter-wrap{text-align:center;width:min(92vw,650px);max-height:90vh}
 .letter-wrap .eyebrow{margin-bottom:10px}
 .paper{
